@@ -34,4 +34,18 @@ For testing purposes, mock SMS messages are generated to simulate system behavio
 3. Run the application with `npm start`.
 4. Use the `processTransactionEvent` and `pollQueue` functions to simulate transactions and queue processing.
 
+## API Information
+
+### Deployed API
+
+The application has been deployed and is accessible at:
+
+- **Base URL**: [https://sms-processing.onrender.com](https://sms-processing.onrender.com)
+
+### API Documentation
+
+Detailed API documentation is available at:
+
+- **API Docs**: [https://sms-processing.onrender.com/docs](https://sms-processing.onrender.com/docs)
+
 ---

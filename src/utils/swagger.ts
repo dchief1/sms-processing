@@ -1,16 +1,14 @@
 import { Express, Request, Response } from "express";
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
-// import { version } from "../../package.json";
-
-const packageJson = require("../../package.json");
+import { version } from "../../package.json";
 
 const options: swaggerJsdoc.Options = {
   definition: {
     openapi: "3.0.0",
     info: {
       title: "API Docs",
-      version: packageJson.version,
+      version,
     },
     components: {
       securitySchemas: {
